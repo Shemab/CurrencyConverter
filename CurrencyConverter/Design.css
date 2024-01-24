@@ -1,0 +1,122 @@
+*margin{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(to right,#003973,#e5e5be);
+}
+
+.container{
+  background-color: ghostwhite;
+  padding: 2rem;
+ border-radius: 3%;
+ width: 55vh;
+}
+
+
+form input{
+    border: 2px solid #003973;
+    height:2rem;
+    padding: 0.36rem;
+}
+form select, button,input{
+    width: 100%;
+     border:none;
+     outline:none;
+     border-radius:0.53rem;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+
+
+
+}
+
+.dropdown i{
+    font-size: 2.3rem;
+    margin-top: 42px;
+
+}
+
+.select-container select{
+
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: none;
+    width: auto;
+}
+.container h2{
+    font-weight: 700;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: large;
+    text-decoration: underline;
+    
+    
+}
+
+
+.select-container img{
+    max-width:  2rem;
+    display: flex;
+   
+
+
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    padding: 1rem;
+    border: 1px solid #e5e5be;
+     border-radius: 5px; 
+     
+     ;
+}
+
+.msg{
+    
+}
+form button{
+    height: 3rem;
+    background-color: #718eac;
+    color: ghostwhite;
+    font-size: 1.15rem;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    cursor: pointer;
+    margin-top: 5%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+    form button:hover{
+        background-color: #003973;
+        box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+        transform: translateY(-0.1em);
+    }
+    form button:active {
+        box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+        transform: translateY(0em);
+      }
+.From{
+
+}
+
+.to{
+
+}
+
+.amount{
+
+}
